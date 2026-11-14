@@ -1,5 +1,19 @@
 # Apumia DQG — Public Demo
 
+## За 30 секунд
+
+**Что это:** Data Quality Gate: 29 аксиом (8 CRITICAL) с IFRS-ссылками. Compliance Evidence Pack с детерминированным audit_hash. Ставится до скоринга.
+
+**Кому:** Embedded lending, SME credit fintech, Tier-1 банки — доказать регулятору качество входных данных.
+
+**Что доказано:** 52 passed. Реальный output движка: verdict REJECT, AXIOM_BALANCE_EQUATION, audit_hash sha256.
+
+**Чего не доказано (честно):** 0 клиентов. Пилот €3–5K / 2 мес — не начат. EU AI Act-ready, но не сертифицирован.
+
+---
+
+
+
 > **Данные не нарисованы.**
 >
 > DQG: отчётность + первичка. Проверяем не только, что сходится — но и что не нарисовано.
