@@ -1,5 +1,8 @@
 # Apumia DQG — Public Demo
 
+<p align="center"><img src="assets/logo.svg" alt="logo" width="400"></p>
+
+
 ## За 30 секунд
 
 **Что это:** Data Quality Gate: 29 аксиом (8 CRITICAL) с IFRS-ссылками. Compliance Evidence Pack с детерминированным audit_hash. Ставится до скоринга.
