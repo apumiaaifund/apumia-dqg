@@ -1,0 +1,48 @@
+{
+  "_synthetic": true,
+  "_note": "Demo input — journal with empty debit account. Output — real engine response.",
+  "input": [
+    {
+      "date": "2026-01-15",
+      "debit_account": "51",
+      "credit_account": "62",
+      "amount": 1000.0
+    },
+    {
+      "date": "2026-01-16",
+      "debit_account": "",
+      "credit_account": "90.01",
+      "amount": 500.0
+    }
+  ],
+  "output": {
+    "request_id": "3153bfef-d00d-40c0-8136-4c11284eb30a",
+    "verdict": "REJECT",
+    "confidence": 0.85,
+    "total_entries": 2,
+    "total_debit": 1500.0,
+    "total_credit": 1500.0,
+    "balance_ok": true,
+    "balance_delta": 0.0,
+    "issues": [
+      {
+        "severity": "CRITICAL",
+        "category": "account",
+        "message": "Empty account",
+        "entry_index": 1
+      }
+    ],
+    "summary": {
+      "critical_count": 1,
+      "warning_count": 0,
+      "info_count": 0,
+      "unique_debit_accounts": 2,
+      "unique_credit_accounts": 2,
+      "zero_amount_entries": 0,
+      "duplicate_count": 0
+    },
+    "journal_hash": "sha256:bf83fddf197a2817774dee3bf768f8a4b22ea3c287b85e74f569a0f7ea6b6987",
+    "processed_at": "2026-11-14T14:57:58.954812Z",
+    "processing_ms": 0.88
+  }
+}

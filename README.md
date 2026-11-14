@@ -57,3 +57,11 @@ EU AI Act Art. 12 (logging) + Art. 14 (oversight) + Art. 86 (right to explanatio
 ## Лицензия
 
 Proprietary. См. LICENSE. Исходный код — по запросу.
+
+## Examples
+
+- `demo/validate_PASS.json` — synthetic input, real PASS output
+- `demo/validate_REJECT.json` — broken balance, real REJECT + flags
+- `demo/journal_REJECT.json` — journal with empty account, real REJECT
+
+All inputs are marked `_synthetic: true`. Outputs — real engine responses from `/v1/validate` and `/v1/journal/validate`.

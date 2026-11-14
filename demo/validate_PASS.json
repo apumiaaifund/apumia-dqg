@@ -1,0 +1,47 @@
+{
+  "_synthetic": true,
+  "_note": "Demo input — not client data. Output — real engine response.",
+  "input": {
+    "revenue": 1000000.0,
+    "cogs": 600000.0,
+    "gross_profit": 400000.0,
+    "sga": 150000.0,
+    "operating_income": 250000.0,
+    "interest_expense": 20000.0,
+    "net_income": 180000.0,
+    "cfo": 200000.0,
+    "depreciation_amortization": 40000.0,
+    "total_assets": 2000000.0,
+    "total_current_assets": 500000.0,
+    "cash_and_equivalents": 150000.0,
+    "accounts_receivable": 200000.0,
+    "inventory": 100000.0,
+    "ppe": 1200000.0,
+    "intangible_assets": 300000.0,
+    "total_liabilities": 800000.0,
+    "total_current_liabilities": 400000.0,
+    "accounts_payable": 290000.0,
+    "short_term_debt": 100000.0,
+    "long_term_debt": 300000.0,
+    "deferred_tax": 0.0,
+    "total_equity": 1200000.0,
+    "retained_earnings": 800000.0
+  },
+  "output": {
+    "request_id": "0f249b3c-ac58-4a4a-990a-e6590a32d4ac",
+    "verdict": "PASS",
+    "confidence": 0.99,
+    "flags": [],
+    "summary": {
+      "critical": 0,
+      "warning": 0,
+      "info": 0,
+      "total": 0
+    },
+    "audit_hash": "sha256:9846279f733a4fb632e6cdb5bcb0b2b33dab12cc43785499d076227f87e868bd",
+    "engine_version": "1.1.0",
+    "input_hash": "sha256:00add131a899636f78b23f47442aaea01d855041fe765b5d9f4a884bb32961fa",
+    "processed_at": "2026-11-14T14:57:58.949477Z",
+    "processing_ms": 0.15
+  }
+}

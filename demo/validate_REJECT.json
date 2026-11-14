@@ -1,0 +1,66 @@
+{
+  "_synthetic": true,
+  "_note": "Demo input — broken balance (assets 1.9M vs 2.0M). Output — real engine response.",
+  "input": {
+    "revenue": 1000000.0,
+    "cogs": 600000.0,
+    "gross_profit": 400000.0,
+    "sga": 150000.0,
+    "operating_income": 250000.0,
+    "interest_expense": 20000.0,
+    "net_income": 180000.0,
+    "cfo": 200000.0,
+    "depreciation_amortization": 40000.0,
+    "total_assets": 1900000.0,
+    "total_current_assets": 500000.0,
+    "cash_and_equivalents": 150000.0,
+    "accounts_receivable": 200000.0,
+    "inventory": 100000.0,
+    "ppe": 1200000.0,
+    "intangible_assets": 300000.0,
+    "total_liabilities": 800000.0,
+    "total_current_liabilities": 400000.0,
+    "accounts_payable": 290000.0,
+    "short_term_debt": 100000.0,
+    "long_term_debt": 300000.0,
+    "deferred_tax": 0.0,
+    "total_equity": 1200000.0,
+    "retained_earnings": 800000.0
+  },
+  "output": {
+    "request_id": "332ba7dc-c9e5-4332-9a63-928fc4892144",
+    "verdict": "REJECT",
+    "confidence": 0.75,
+    "flags": [
+      {
+        "code": "AXIOM_BALANCE_EQUATION",
+        "severity": "CRITICAL",
+        "field": "total_assets",
+        "detected": 1900000.0,
+        "suggested": 2000000.0,
+        "reason": "Assets != Liabilities + Equity (gap 5.26%)",
+        "reference": "IFRS IAS 1.54"
+      },
+      {
+        "code": "AXIOM_COMPONENT_SUM",
+        "severity": "CRITICAL",
+        "field": "total_assets",
+        "detected": 1900000.0,
+        "suggested": 2000000.0,
+        "reason": "Sum components (2,000,000) > Total Assets x 1.05",
+        "reference": "IFRS IAS 1.54"
+      }
+    ],
+    "summary": {
+      "critical": 2,
+      "warning": 0,
+      "info": 0,
+      "total": 2
+    },
+    "audit_hash": "sha256:9c11282e5e5eaf5f1b1a1ad530a201f6f2e7a4205361cdeaafd7ec6e22a2f5bf",
+    "engine_version": "1.1.0",
+    "input_hash": "sha256:3f1ccce4ce0736293d8b0678687ef86bdd867862d56a2d66eccb1d6d6a56bdaf",
+    "processed_at": "2026-11-14T14:57:58.951953Z",
+    "processing_ms": 0.09
+  }
+}
