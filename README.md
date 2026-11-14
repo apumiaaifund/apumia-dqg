@@ -1,5 +1,9 @@
 # Apumia DQG — Public Demo
 
+> **Данные не нарисованы.**
+>
+> DQG: отчётность + первичка. Проверяем не только, что сходится — но и что не нарисовано.
+
 **Data Quality Gate for SME credit reporting.** EU AI Act Art. 12/14/86-ready. Stateless. p95 < 50ms.
 
 ## Что делает
