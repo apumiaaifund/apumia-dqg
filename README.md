@@ -1,26 +1,40 @@
-![PROVEN](https://img.shields.io/badge/PROVEN-52%20passed-brightgreen)
-
-
 <p align="center"><img src="assets/logo.svg" alt="logo" width="400"></p>
 
-<p align="center">
-  <img src="docs/logo.png" alt="apumia-dqg-demo" width="200"/>
-</p>
+![PROVEN](https://img.shields.io/badge/PROVEN-52%20passed-brightgreen)
 
-<h1 align="center">apumia-dqg-demo</h1>
+# Apumia DQG
 
-<p align="center">
-  <b>Data Quality Gate — интерактивное демо</b><br/>
-  APUM AI Fund — воспроизводимая финансовая аналитика
-</p>
+**Data Quality Gate для SME-кредитования. Регулятор проверяет хеш — и видит, что данные не нарисованы.**
 
-## О продукте
-52 проверки на реальных данных: отрицательный equity, AR > 120 дней, CFO/NI divergence.
+---
 
-## Выгоды
-Детерминированный аудит: видно, почему запись не прошла. Запуск за 1 минуту без установки.
-IC видит, что модель не работает на битых данных. Отлов ошибок OCR до WACC/PD.
+## За 30 секунд
 
-## Связанные продукты
-Этот репозиторий является частью экосистемы [APUM AI Fund](https://github.com/apumiaaifund).
-Флагманский продукт: [apumia_credit](https://github.com/apumiaaifund/apumia_credit) (PROVEN 8/8).
+**Что это:** Слой до скоринга — 29 аксиом с IFRS-ссылками (8 CRITICAL), Compliance Evidence Pack с детерминированным audit_hash (SHA-256).
+
+**Кому:** Head of Risk / CISO в банке или embedded lending финтехе.
+
+**Почему сейчас:** MAS Guidelines (7 октября 2027) требуют независимой проверки AI-систем. Self-attestation не считается. DQG даёт артефакт, который регулятор проверяет без доступа к системе банка.
+
+**Что доказано:** 52 passed. Реальный output: verdict REJECT, AXIOM_BALANCE_EQUATION, IFRS IAS 1.54. verified: true. apumia prove → PROVEN.
+
+**Чего не доказано (честно):** 0 клиентов, пилот не начат. EU AI Act-ready, но не сертифицирован.
+
+---
+
+## Оффер
+
+Пилот €3–5K / 2 месяца. Критерий: экономия за 12 мес ≥ цены лицензии. Если меньше — клиент не платит.
+
+**Следующий шаг:** 20-минутный звонок — покажу apumia prove вживую, без слайдов.
+
+---
+
+## GitHub
+
+- **Private code:** apumiaaifund/apumia-dqg
+- **Public demo:** apumiaaifund/apumia-dqg-demo
+
+## License
+
+MIT
