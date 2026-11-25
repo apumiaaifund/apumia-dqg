@@ -6,7 +6,7 @@
 
 **Deterministic pre-scoring & pre-training data verification layer: 29 accounting/risk axioms with IFRS (IAS 1.54) references, 52/52 PROVEN checks, and tamper-evident SHA-256 Compliance Evidence Packs.**
 
-Live Browser Sandbox: **[https://github.io](https://github.io)**
+Live Browser Sandbox: **[https://apumiaaifund.github.io/apumia-dqg/](https://apumiaaifund.github.io/apumia-dqg/)**
 
 ## Key Capabilities
 - **Pre-Scoring & EU AI Act Art. 10 Gate:** Blocks corrupted, imbalanced, or synthetically manipulated SME lending and financial records before ML inference or model training.
