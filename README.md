@@ -15,4 +15,4 @@ Live Browser Sandbox: **[https://github.io](https://github.io)**
 
 ## Get the Commercial DQG Source Suite ($149)
 Includes full Python engine (`dqg/`), 52-test suite (`verify.py`), Docker/Compose manifests, SBOM, and commercial license.
-Contact **apumiaaifund@gmail.com** or visit **https://github.io**.
+Get instant private repository access via Stripe, Apple Pay, or PayPal: **[Buy APUMIA Data Quality Gate ($149) ↗](https://app.lava.top/products/e5d00373-f814-47b0-9eb1-af33be437905)**
